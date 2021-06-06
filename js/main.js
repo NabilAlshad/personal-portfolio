@@ -18,6 +18,16 @@ $(".owl-carousel").owlCarousel({
       nav: false,
       margin: 20,
     },
+    300: {
+      items: 1,
+      margin: 20,
+      nav: false,
+    },
+    400: {
+      items: 1,
+      nav: false,
+      margin: 20,
+    },
     600: {
       items: 2,
       nav: false,
