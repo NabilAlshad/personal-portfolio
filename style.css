@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Limelight&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Limelight&family=Noto+Sans+JP:wght@100&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.section-padding {
+  padding: 15px;
+}
+header {
+  max-width: 100%;
+
+  margin-top: -80px;
+}
+
+/* brand img       */
+.navbar-brand img {
+  height: 65px;
+  border-radius: 50%;
+  border: 4px solid navy;
+}
+
+/* logo  */
+
+nav {
+  background-color: rgb(54, 66, 121);
+}
+.nav-link {
+  font-family: "Odibee Sans", cursive;
+  font-size: 30px;
+  color: rgb(99, 144, 241);
+}
+.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid #0dcaf0;
+  background-size: cover;
+}
+.logo-text {
+  font-family: "Pattaya", sans-serif;
+  font-size: 35px;
+  color: goldenrod !important;
+  text-shadow: 0px 0px 20px goldenrod;
+}
+
+/* navbar scrooled */
+.fixed-top.scrolled {
+  background-color: rgb(64, 70, 129) !important;
+  transition: background-color 200ms linear;
+}
+.intro {
+  width: 100%;
+  background-color: rgb(109, 130, 133);
+  height: 100vh;
+}
+.intro span {
+  font-family: "Limelight", cursive;
+}
+.intro h1,
+h3 {
+  width: 40%;
+  color: black;
+  position: relative;
+  margin-top: -20px;
+  top: 60%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+.intro h1,
+h3 {
+  color: white;
+}
+.bg-maroon {
+  color: maroon;
+}
+
+/* about me section  */
+.line {
+  width: 250px;
+  height: 3px;
+  background-color: black;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.about {
+  margin-top: 100px;
+}
+.image img {
+  width: 600px;
+  height: 400px;
+  margin: 10px;
+}
+.card {
+  height: 300px;
+  margin-left: 20px;
+}
+.card img {
+  height: 300px;
+  overflow: hidden;
+}
+
+/* .skill section */
+.slider.owl-carousel.owl-loaded.owl-drag {
+  margin-top: 100px;
+}
+/* progress bar    */
+
+.skills {
+  background-color: grey;
+}
+
+/* html card  */
+.html {
+  position: relative;
+  background-color: #0dcaf0;
+  width: 1%;
+  height: 20px;
+  animation-name: html;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes html {
+  from {
+    width: 1%;
+  }
+  to {
+    width: 90%;
+    background-color: rgb(101, 245, 101);
+  }
+}
+
+/* css card   */
+.css {
+  position: relative;
+  background-color: #0dcaf0;
+  width: 1%;
+  height: 20px;
+  animation-name: css;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes css {
+  from {
+    width: 1%;
+  }
+  to {
+    width: 92%;
+    background-color: rgb(101, 245, 101);
+  }
+}
+
+/* javascript card  */
+.javascript {
+  position: relative;
+  background-color: #0dcaf0;
+  width: 1%;
+  height: 20px;
+  animation-name: javascript;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes javascript {
+  from {
+    width: 1%;
+  }
+  to {
+    width: 80%;
+    background-color: rgb(33, 139, 86);
+  }
+}
+
+/* bootstrap card   */
+.bootstrap {
+  position: relative;
+  background-color: #0dcaf0;
+  width: 1%;
+  height: 20px;
+  animation-name: bootstrap;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bootstrap {
+  from {
+    width: 1%;
+  }
+  to {
+    width: 90%;
+    background-color: rgb(51, 168, 110);
+  }
+}
+/* node js card   */
+.node-js {
+  position: relative;
+  background-color: #0dcaf0;
+  width: 1%;
+  height: 20px;
+  animation-name: node;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes node {
+  from {
+    width: 1%;
+  }
+  to {
+    width: 75%;
+    background-color: rgb(235, 232, 73);
+  }
+}
+/* react card    */
+.react {
+  position: relative;
+  background-color: #0dcaf0;
+  width: 1%;
+  height: 20px;
+  animation-name: react;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes react {
+  from {
+    width: 1%;
+  }
+  to {
+    width: 82%;
+    background-color: rgb(38, 133, 85);
+  }
+}
+/* mongodb card    */
+.mongo {
+  position: relative;
+  background-color: #0dcaf0;
+  width: 1%;
+  height: 20px;
+  animation-name: mongo;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes mongo {
+  from {
+    width: 1%;
+  }
+  to {
+    width: 70%;
+    background-color: rgb(216, 214, 70);
+  }
+}
+
+/* footer section  */
+.container.form-section {
+  display: grid;
+  margin-top: 100px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+form {
+  width: 80%;
+}
+.footer-image img {
+  width: 100%;
+  height: auto;
+}

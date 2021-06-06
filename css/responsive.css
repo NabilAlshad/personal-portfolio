@@ -1,0 +1,32 @@
+@media (max-width: 500px) {
+  .form-section {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 600px) {
+  .image img {
+    width: 200px;
+    height: 300px;
+  }
+  .card {
+    height: 300px;
+    margin-left: 60px;
+  }
+}
+@media (max-width: 772px) {
+  .footer-image img {
+    height: 400px;
+  }
+  .image img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 992px) {
+  .image img {
+    width: 400px;
+    height: 200px;
+  }
+}
