@@ -1,3 +1,13 @@
+@media (max-width: 300px) {
+  nav.navbar.navbar-expand-md.navbar-dark.bg-dark.fixed-top {
+    width: 354px;
+  }
+  header.overflow-hidden {
+    overflow: none !important;
+    width: 110%;
+  }
+}
+
 @media (max-width: 500px) {
   .form-section {
     display: flex;
@@ -9,7 +19,7 @@
   }
 
   nav.navbar.navbar-expand-md.navbar-dark.bg-dark.fixed-top {
-    width: 444px !important;
+    width: 94%;
   }
   .intro h1,
   h3 {
