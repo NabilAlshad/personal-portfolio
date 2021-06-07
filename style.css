@@ -284,3 +284,46 @@ form {
   width: 100%;
   height: auto;
 }
+
+.icons {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.icon {
+  margin: 10px auto;
+}
+.icon i {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.fab.fa-facebook {
+  background-color: rgb(68, 68, 199);
+  color: white;
+  border-radius: 50%;
+  padding: 11px;
+}
+.fab.fa-linkedin {
+  background-color: rgb(68, 68, 199);
+  color: white;
+  border-radius: 30%;
+  padding: 11px;
+}
+.fab.fa-github {
+  background-color: purple;
+  padding: 11px;
+  border-radius: 50%;
+  color: white;
+}
+.fab.fa-twitter {
+  background-color: rgb(24, 72, 160);
+  padding: 11px;
+  color: white;
+}
+.icons i:hover {
+  transform: rotateY("180deg");
+}
+.count {
+  margin-top: 50px;
+}
