@@ -27,3 +27,17 @@
     height: 100%;
   }
 }
+@media (max-width: 350px) {
+  .about.d-flex.mt-10.justify-content-between.section-padding {
+    flex-direction: column;
+  }
+  .image img {
+    width: 250px;
+    height: 250px;
+    margin: 0px;
+  }
+  .container.form-section {
+    flex-direction: column;
+    display: flex;
+  }
+}
