@@ -27,12 +27,17 @@ header {
 /* logo  */
 
 nav {
-  background-color: rgb(54, 66, 121);
+  background: transparent;
 }
 .nav-link {
   font-family: "Odibee Sans", cursive;
   font-size: 30px;
-  color: rgb(99, 144, 241);
+  color: grey !important;
+}
+.nav-link:hover {
+  font-family: "Odibee Sans", cursive;
+  font-size: 30px;
+  color: rgb(243, 238, 238) !important;
 }
 .logo {
   width: 70px;
@@ -50,12 +55,12 @@ nav {
 
 /* navbar scrooled */
 .fixed-top.scrolled {
-  background-color: rgb(64, 70, 129) !important;
+  background-color: #7bdcb5 !important;
   transition: background-color 200ms linear;
 }
 .intro {
   width: 100%;
-  background-color: rgb(109, 130, 133);
+  background-color: #7bdcb5;
   height: 100vh;
 }
 .intro span {
@@ -80,6 +85,7 @@ h3 {
 }
 
 /* about me section  */
+
 .line {
   width: 250px;
   height: 3px;
@@ -97,12 +103,20 @@ h3 {
   margin: 10px;
 }
 .card {
-  height: 300px;
+  width: 80%;
+  height: 60%;
+
   margin-left: 20px;
+  background: transparent;
 }
 .card img {
   height: 300px;
   overflow: hidden;
+}
+.skill {
+  background: url("img/svg.png");
+  background-size: cover;
+  background-position: center;
 }
 
 /* .skill section */
@@ -272,6 +286,11 @@ h3 {
     background-color: rgb(216, 214, 70);
   }
 }
+footer {
+  background: url("img/ff.png");
+  background-size: cover;
+  background-blend-mode: fill;
+}
 
 /* footer section  */
 .container.form-section {
@@ -286,6 +305,7 @@ form {
 .footer-image img {
   width: 100%;
   height: auto;
+  background: transparent;
 }
 
 .icons {
